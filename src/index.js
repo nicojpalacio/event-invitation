@@ -3,6 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
+import TimeWeding from "./TimerWeding";
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<TimeWeding />, rootElement);
 
 ReactDOM.render(
   <React.StrictMode>
