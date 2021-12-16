@@ -38,15 +38,15 @@ export default function App() {
     <>
       <div className="text-center">
         <h1>
-          Cuenta regresiva
+          Cuenta
           <br />
-          para la ceremonia
+          Fiesta
         </h1>
       </div>
       <div className="App">
         <CountdownCircleTimer
           {...timerProps}
-          colors={[["#41454f"]]}
+          colors={[["#7E2E84"]]}
           duration={daysDuration}
           initialRemainingTime={remainingTime}
         >

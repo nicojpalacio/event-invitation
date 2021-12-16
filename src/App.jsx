@@ -1,4 +1,3 @@
-import { Button, Card } from "react-bootstrap";
 import "./App.css";
 import Portada from "./Portada";
 import TimerWeding from "./TimerWeding"
