@@ -9,6 +9,7 @@ import "./App.css";
 import { GiBigDiamondRing } from "react-icons/gi";
 import { GiPartyPopper } from "react-icons/gi";
 import { AiOutlineGift } from "react-icons/ai";
+import ModalCbu from './ModalCbu';
 
 
 export default function Portada() {
@@ -22,14 +23,15 @@ export default function Portada() {
                 <h4>CEREMONIA</h4>
                 <p>La ceremonia se realizará el 14 de Enero a las 19:00 horas en la Parroquia San Roque, San Miguel de Tucumán. Tocá el botón de abajo para recibir las indicaciones para llegar.</p>
 
-                <Button variant="secondary">Llegar a la ceremonia</Button>
+                <Button href='https://goo.gl/maps/oaNmgcJTk3xUsiPA7' target='_blank' variant="secondary">Llegar a la ceremonia </Button>
+                
             </div>
             <div className='text-center m-5'>
                 <GiPartyPopper color='white' size='6em' />
                 <h4>FIESTA</h4>
-                <p>Después de la ceremonia festejaremos en Kaké Eventos, Tafí Viejo de 20:00 a 4:00 AM. Tocá el botón de abajo y encontrá las indicaciones para llegar, te esperamos!</p>
+                <p>Después de la ceremonia festejaremos en Keke Eventos, Tafí Viejo de 20:00 a 4:00 AM. Tocá el botón de abajo y encontrá las indicaciones para llegar, te esperamos!</p>
 
-                <Button variant="secondary">Llegar a la fiesta</Button>
+                <Button href='https://g.page/Keke-salon?share' target='_blank' variant="secondary">Llegar a la fiesta</Button>
             </div>
 
             <div className='text-center img-text img-height'>
@@ -37,15 +39,19 @@ export default function Portada() {
                 <h1 className=' pt-3'>Confirmacion de asistencia</h1>
                 <p className='mb-0'>Esperamos que seas parte de esta gran celebracion</p><br />
                 <p className='mb-0 pb-3'>La fiesta esta preparada para que los adultos la pasen genial y los mas chicos se queden en casa</p>
-                <Button variant="outline-secondary">Confirmar Asistencia</Button>{' '}
+                <Button href='https://docs.google.com/forms/d/e/1FAIpQLSfndC0sl1jhY0IA8J4RpaVdih5_X8FG9Lv4s_w3w3AC0EWH8w/viewform?usp=sf_link' target='_blank' variant="secondary">Confirmar Asistencia</Button>{' '}
             </div>
             <div className='text-center m-5'>
             <AiOutlineGift color='white' size='6em' />
                 
                 <p>Si deseás realizarnos un regalo podés colaborar con nuestra Luna de Miel...</p>
-
-                <Button variant="secondary">Ver datos bancarios</Button>
+                <ModalCbu/>
+                
             </div>
+            <div>
+                <h5 className='text-center mb-4'>¡Gracias por acompañarnos en este momento tan importante!</h5>
+            </div>
+
             
         </>
     )
