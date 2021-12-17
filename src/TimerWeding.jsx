@@ -46,7 +46,7 @@ export default function App() {
       <div className="App">
         <CountdownCircleTimer
           {...timerProps}
-          colors={[["#7E2E84"]]}
+          colors={[["#FF33FF"]]}
           duration={daysDuration}
           initialRemainingTime={remainingTime}
         >
