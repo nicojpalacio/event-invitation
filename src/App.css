@@ -10,7 +10,7 @@ height: 100%;
 }
 .img-text{
   background-image: url('./Img/editada4.jpg');
-  background-size: contain ;
+  background-size: cover ;
   background-repeat: no-repeat;
   color:rgb(53, 51, 51);
   border-radius: 5%

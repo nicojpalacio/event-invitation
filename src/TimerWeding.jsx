@@ -38,9 +38,8 @@ export default function App() {
     <>
       <div className="text-center">
         <h1>
-          Cuenta
-          <br />
-          Fiesta
+          Cuenta Regresiva
+        
         </h1>
       </div>
       <div className="App">

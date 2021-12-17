@@ -24,7 +24,7 @@ export default function Portada() {
 
                 <Button variant="secondary">Llegar a la ceremonia</Button>
             </div>
-            <div className='text-center m-4'>
+            <div className='text-center m-5'>
                 <GiPartyPopper color='white' size='6em' />
                 <h4>FIESTA</h4>
                 <p>Después de la ceremonia festejaremos en Kaké Eventos, Tafí Viejo de 20:00 a 4:00 AM. Tocá el botón de abajo y encontrá las indicaciones para llegar, te esperamos!</p>
@@ -39,7 +39,7 @@ export default function Portada() {
                 <p className='mb-0 pb-3'>La fiesta esta preparada para que los adultos la pasen genial y los mas chicos se queden en casa</p>
                 <Button variant="outline-secondary">Confirmar Asistencia</Button>{' '}
             </div>
-            <div className='text-center m-2'>
+            <div className='text-center m-5'>
             <AiOutlineGift color='white' size='6em' />
                 
                 <p>Si deseás realizarnos un regalo podés colaborar con nuestra Luna de Miel...</p>
