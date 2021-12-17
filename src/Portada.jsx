@@ -34,9 +34,9 @@ export default function Portada() {
 
             <div className='text-center img-text img-height'>
                 {/* <Image className='rounded' src={imgportada2} fluid /> */}
-                <h1 className='pt-3'>Confirmacion de asistencia</h1>
+                <h1 className=' pt-3'>Confirmacion de asistencia</h1>
                 <p className='mb-0'>Esperamos que seas parte de esta gran celebracion</p><br />
-                <p className='pb-3'>La fiesta esta preparada para que los adultos la pasen genial y los mas chicos se queden en casa</p>
+                <p className='mb-0 pb-3'>La fiesta esta preparada para que los adultos la pasen genial y los mas chicos se queden en casa</p>
                 <Button variant="outline-secondary">Confirmar Asistencia</Button>{' '}
             </div>
             <div className='text-center m-2'>
