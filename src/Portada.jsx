@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Image } from 'react-bootstrap'
 import imgportada from './Img/sofy-guillo.png'
-import imgportada2 from './Img/editada2.jpeg'
+// import imgportada2 from './Img/editada2.jpeg'
 // import anillos from './Img/rings.png'
 // import logofiesta from './Img/champagne.png'
 // import logoregalo from './Img/giftbox.png'
