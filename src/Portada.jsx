@@ -34,7 +34,7 @@ export default function Portada() {
                 <Button href='https://g.page/Keke-salon?share' target='_blank' variant="secondary">Llegar a la fiesta</Button>
             </div>
 
-            <div className='text-center img-text img-height'>
+            <div className='text-center img-text img-height pb-2'>
                 {/* <Image className='rounded' src={imgportada2} fluid /> */}
                 <h1 className=' pt-3'>Confirmacion de asistencia</h1>
                 <p className='mb-0'>Esperamos que seas parte de esta gran celebracion</p><br />
