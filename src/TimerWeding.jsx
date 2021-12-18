@@ -8,7 +8,7 @@ const daySeconds = 86400;
 
 const timerProps = {
   isPlaying: true,
-  size: 85,
+  size: 90,
   strokeWidth: 6,
 };
 
@@ -50,7 +50,7 @@ export default function App() {
           initialRemainingTime={remainingTime}
         >
           {({ elapsedTime }) =>
-            renderTime("days", getTimeDays(daysDuration - elapsedTime))
+            renderTime("dias", getTimeDays(daysDuration - elapsedTime))
           }
         </CountdownCircleTimer>
         <CountdownCircleTimer
@@ -63,7 +63,7 @@ export default function App() {
           ]}
         >
           {({ elapsedTime }) =>
-            renderTime("hours", getTimeHours(daySeconds - elapsedTime))
+            renderTime("horas", getTimeHours(daySeconds - elapsedTime))
           }
         </CountdownCircleTimer>
         <CountdownCircleTimer
@@ -76,7 +76,7 @@ export default function App() {
           ]}
         >
           {({ elapsedTime }) =>
-            renderTime("minutes", getTimeMinutes(hourSeconds - elapsedTime))
+            renderTime("minutos", getTimeMinutes(hourSeconds - elapsedTime))
           }
         </CountdownCircleTimer>
         <CountdownCircleTimer
@@ -89,7 +89,7 @@ export default function App() {
           ]}
         >
           {({ elapsedTime }) =>
-            renderTime("seconds", getTimeSeconds(elapsedTime))
+            renderTime("segundos", getTimeSeconds(elapsedTime))
           }
         </CountdownCircleTimer>
       </div>
