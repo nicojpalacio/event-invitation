@@ -39,7 +39,7 @@ export default function Portada() {
                 <h1 className=' pt-3'>Confirmacion de asistencia</h1>
                 <p className='mb-0'>Esperamos que seas parte de esta gran celebracion</p><br />
                 <p className='mb-0 pb-3'>La fiesta esta preparada para que los adultos la pasen genial y los mas chicos se queden en casa</p>
-                <Button href='https://docs.google.com/forms/d/e/1FAIpQLSfndC0sl1jhY0IA8J4RpaVdih5_X8FG9Lv4s_w3w3AC0EWH8w/viewform?usp=sf_link' target='_blank' variant="secondary">Confirmar Asistencia</Button>{' '}
+                <Button href='https://docs.google.com/forms/d/e/1FAIpQLSdXxkAptpXznkN9Qkl3H_adPQJycQwUXoInGwr2vojY0RQzTg/viewform?usp=sf_link' target='_blank' variant="secondary">Confirmar Asistencia</Button>{' '}
             </div>
             <div className='text-center m-5'>
             <AiOutlineGift color='white' size='6em' />
